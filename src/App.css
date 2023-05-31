@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap');;
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: 'Nunito','Anek Malayalam', sans-serif;
+  color: #11052c;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0 30px;
+}
+
+.question-card {
+  max-width: 500px;
+  min-width: 250px;
+  background: #ffffff;
+  border-radius: 4px;
+  margin-top: 100px;
+  padding: 20px 30px;
+  position:relative;
+  border: 2px dashed #b1b1b1;
+}
+
+ul {
+  list-style: none;
+}
+
+.question-text {
+  font-size: 15px; 
+}
+
+.question-card h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+
+  padding: 10% 0px 10% 0px ;
+  color:RGB(218,41,28) !important;
+}
+
+.question-card ul {
+  margin-top: 20px;
+  margin-left: -40px;
+} 
+
+ .question-card ul li {
+  text-decoration: none;
+  list-style: none;
+  color: #2d264b;
+  font-size: 16px;
+  background: #ffffff;
+  border: 1px solid #b1b1b1; 
+  padding: 11px;
+  margin-top: 15px;
+  cursor: pointer;
+  position:relative; }
+
+  .question-card ul li:hover{
+    color: #FFFFFF;
+    background: RGB(218,41,28);
+    font-weight: 900;
+    font-size:16px;
+  }
+
+
+ .question-card ul .selected-answer {
+  background: purple !important;
+  border: 1px solid #800080;
+} 
+
+header h1 {
+  font-size: 30px;
+  font-weight: 600;
+  background-image: conic-gradient(RGB(218,41,28), RGB(218,41,28), 	RGB(250, 190, 246));;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+h3 {
+  font-size: 20px !important;
+}  
+
+.neutral{
+  background-color:lightblue;
+}
+
+.correct-option:hover{
+  background-color: white !important;
+  color:black !important;
+  font-weight: 900 !important;
+
+}
+
+.incorrect-option{
+  background-color:RGB(218,41,28) !important;
+  color: white !important;
+} 
