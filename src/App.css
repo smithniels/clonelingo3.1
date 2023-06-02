@@ -31,7 +31,7 @@ ul {
 }
 
 .question-text {
-  font-size: 15px; 
+  font-size: 25px; 
 }
 
 .question-card h2 {
@@ -82,9 +82,6 @@ header h1 {
   -webkit-background-clip: text;
 }
 
-h3 {
-  font-size: 20px !important;
-}  
 
 .neutral{
   background-color:lightblue;

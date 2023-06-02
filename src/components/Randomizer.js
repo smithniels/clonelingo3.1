@@ -22,6 +22,6 @@ function shuffle(array) {
   return array;
 }
 
-var RandArray = shuffle(Questions);
+var RandomWordList = shuffle(Questions);
 
-export default RandArray;
+export default RandomWordList;
