@@ -6,7 +6,7 @@ import RandomWordList from "./components/Randomizer.js";
 import classNames from "classnames";
 
 function App() {
-  // Propertiesß
+  // Properties
   const [showResults, setShowResults] = useState(false);
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [score, setScore] = useState(0);
@@ -40,6 +40,7 @@ function App() {
     setCurrentQuestion(0);
     setShowResults(false);
   };
+
   // Reset selectedOption and isActive state
   useEffect(() => {
     if (selectedOption !== null) {
@@ -62,8 +63,6 @@ function App() {
             {score} out of {RandomWordList.length} correct - (
             {((score / RandomWordList.length) * 100).toFixed(1)}
             %)
-            {score}
-            {RandomWordList.length}
           </h2>
           <button onClick={() => restartGame()}>Restart game</button>
         </div>
