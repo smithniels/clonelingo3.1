@@ -200,7 +200,7 @@ const Questions = [
     ],
   },
   {
-    text: "Fears/Concerns",
+    text: "Worries",
     options: [
       {
         id: 0,
@@ -214,7 +214,7 @@ const Questions = [
       },
       {
         id: 2,
-        text: "befarginer",
+        text: "bekymringer",
         isCorrect: true,
       },
       {
